@@ -1,0 +1,41 @@
+@echo off
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=2& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/mingw64/bin/SDL2.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/SDL2.dll || (set FAIL_LINE=3& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=4& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/mingw64/bin/libgcc_s_seh-1.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/libgcc_s_seh-1.dll || (set FAIL_LINE=5& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=6& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/mingw64/bin/libstdc++-6.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/libstdc++-6.dll || (set FAIL_LINE=7& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=8& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/mingw64/bin/libwinpthread-1.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/libwinpthread-1.dll || (set FAIL_LINE=9& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=10& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/libc++.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/libc++.dll || (set FAIL_LINE=11& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=12& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/libunwind.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/libunwind.dll || (set FAIL_LINE=13& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=14& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/mingw64/bin/libgmp-10.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/libgmp-10.dll || (set FAIL_LINE=15& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=16& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/mingw64/bin/libisl-23.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/libisl-23.dll || (set FAIL_LINE=17& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=18& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/mingw64/bin/libmpc-3.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/libmpc-3.dll || (set FAIL_LINE=19& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=20& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/mingw64/bin/libmpfr-6.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/libmpfr-6.dll || (set FAIL_LINE=21& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=22& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/mingw64/bin/libzstd.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/libzstd.dll || (set FAIL_LINE=23& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=24& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/mingw64/bin/zlib1.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/zlib1.dll || (set FAIL_LINE=25& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=26& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/mingw64/bin/libintl-8.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/libintl-8.dll || (set FAIL_LINE=27& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=28& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/mingw64/bin/libiconv-2.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/libiconv-2.dll || (set FAIL_LINE=29& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=30& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/third_party/SDL2/SDL2-2.32.10/x86_64-w64-mingw32/bin/SDL2.dll C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/SDL2.dll || (set FAIL_LINE=31& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=32& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/game.toml C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/game.toml || (set FAIL_LINE=33& goto :ABORT)
+cd /D C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-ninja || (set FAIL_LINE=34& goto :ABORT)
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/omega/Downloads/build-ninja/gba_bios.bin C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/gba_bios.bin || (set FAIL_LINE=35& goto :ABORT)
+goto :EOF
+
+:ABORT
+set ERROR_CODE=%ERRORLEVEL%
+echo Batch file failed at line %FAIL_LINE% with errorcode %ERRORLEVEL%
+exit /b %ERROR_CODE%

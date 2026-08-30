@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\runtime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\save_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\bios_hle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\generated_dispatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\runtime_bus_bridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\arm_cpu_bridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\overlay_emit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\overlay_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\overlay_compile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\mod_function_hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\host_platform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\host_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\color_lut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\asset_picker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\runtime_arm_default_aborts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\self_heal_cluster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\generated_bios\bios_dispatch_table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\src\runtime\generated_bios\bios_recompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6CECA958-721A-32D9-B55A-84269318F726}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

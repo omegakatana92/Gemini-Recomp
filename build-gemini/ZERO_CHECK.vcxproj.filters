@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\CMakeFiles\c0de0b0b1d45797cdb340d280e2b3008\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{761940CB-2985-35E0-9730-D0A217F84EFB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

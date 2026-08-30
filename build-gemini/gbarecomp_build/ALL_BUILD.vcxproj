@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8323466A-8BCA-372B-A08D-962BF1DEDD7D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/gbarecomp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp -BC:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-gemini --check-stamp-file C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-gemini/gbarecomp_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\CMakeFiles\4.3.3\CMakeCCompiler.cmake;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\CMakeFiles\cmake.verify_globs;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\cmake\runtime.cmake.in;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\external\arm-recomp-core\cmake\ArmRecompCore.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/gbarecomp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp -BC:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-gemini --check-stamp-file C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-gemini/gbarecomp_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\CMakeFiles\4.3.3\CMakeCCompiler.cmake;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\CMakeFiles\cmake.verify_globs;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\cmake\runtime.cmake.in;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\external\arm-recomp-core\cmake\ArmRecompCore.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/gbarecomp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp -BC:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-gemini --check-stamp-file C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-gemini/gbarecomp_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\CMakeFiles\4.3.3\CMakeCCompiler.cmake;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\CMakeFiles\cmake.verify_globs;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\cmake\runtime.cmake.in;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\external\arm-recomp-core\cmake\ArmRecompCore.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/gbarecomp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp -BC:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-gemini --check-stamp-file C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-gemini/gbarecomp_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\CMakeFiles\4.3.3\CMakeCCompiler.cmake;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\CMakeFiles\cmake.verify_globs;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\cmake\runtime.cmake.in;C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\external\arm-recomp-core\cmake\ArmRecompCore.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\ZERO_CHECK.vcxproj">
+      <Project>{2472888E-A4BB-3F60-89B0-A64E6478DDDF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\armv4t_tests.vcxproj">
+      <Project>{0DAC0E40-05A8-3B6B-B254-16368187CEE4}</Project>
+      <Name>armv4t_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\audio_drc_tests.vcxproj">
+      <Project>{DB604BDF-5D61-38E7-96DB-AEE69BE2EBA2}</Project>
+      <Name>audio_drc_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\bios_smoke.vcxproj">
+      <Project>{0975DCAE-2AB7-30C1-836B-254ECF425488}</Project>
+      <Name>bios_smoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\bus_tests.vcxproj">
+      <Project>{789E3C64-33EA-3D3B-A78E-E6DAD5B34A18}</Project>
+      <Name>bus_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\codegen_shards_tests.vcxproj">
+      <Project>{1D576C8A-54A2-3DC3-AE5D-E89397F313D2}</Project>
+      <Name>codegen_shards_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\codegen_tests.vcxproj">
+      <Project>{74E306D8-5D76-388C-A115-85CB5D6AC183}</Project>
+      <Name>codegen_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\config_overlay_smoke.vcxproj">
+      <Project>{F90CB1F0-A1A6-358C-8ECF-8435711023D2}</Project>
+      <Name>config_overlay_smoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\decoder_smoke.vcxproj">
+      <Project>{77C4EA7F-0B78-34A4-8BB8-570CF55CEA37}</Project>
+      <Name>decoder_smoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\dma_tests.vcxproj">
+      <Project>{A755ACFC-4AEC-3C69-B6E4-DE76C38DE564}</Project>
+      <Name>dma_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\function_finder_tests.vcxproj">
+      <Project>{3A82F87C-ED58-34AF-82AD-77697423EB91}</Project>
+      <Name>function_finder_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\gba_recompile.vcxproj">
+      <Project>{C32B4078-CD38-3A5D-9544-FE22DD9BADAB}</Project>
+      <Name>gba_recompile</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\gba_scan.vcxproj">
+      <Project>{2C9D4592-8899-3122-B3B9-523BE6B655AD}</Project>
+      <Name>gba_scan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\gbarecomp_armv4t.vcxproj">
+      <Project>{768A680B-A10B-30B4-909C-B5B0BA57B54C}</Project>
+      <Name>gbarecomp_armv4t</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\gbarecomp_debug.vcxproj">
+      <Project>{F5EAF759-EC9C-3F47-9B21-DF3210BA41ED}</Project>
+      <Name>gbarecomp_debug</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\gbarecomp_gba.vcxproj">
+      <Project>{D9A37477-D764-30EE-BB94-80D99AEF9736}</Project>
+      <Name>gbarecomp_gba</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\gbarecomp_heal_gate.vcxproj">
+      <Project>{353DB2C0-2954-35A5-9BE0-21AF013A52B1}</Project>
+      <Name>gbarecomp_heal_gate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\gbarecomp_recompile_core.vcxproj">
+      <Project>{6DBFB43E-5E46-375D-BDEC-6A6BBA107D85}</Project>
+      <Name>gbarecomp_recompile_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\gbarecomp_runtime.vcxproj">
+      <Project>{68CCD278-A7A2-3140-B914-5C71B1FCA96F}</Project>
+      <Name>gbarecomp_runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\gen_codegen_tests.vcxproj">
+      <Project>{2264496A-CD0D-3897-9D07-97E588572623}</Project>
+      <Name>gen_codegen_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\gpio_tests.vcxproj">
+      <Project>{CC9E8774-AFE4-3D9F-8D88-5E7ED2816784}</Project>
+      <Name>gpio_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\heal_gate_tests.vcxproj">
+      <Project>{5898A6CB-0E6E-31D9-B676-0CF1FBB2BC10}</Project>
+      <Name>heal_gate_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\interpreter_smoke.vcxproj">
+      <Project>{0238450E-0B3C-3591-8DBE-09589F09B53B}</Project>
+      <Name>interpreter_smoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\irq_tests.vcxproj">
+      <Project>{E27857F8-A995-3C6A-A42D-820E8775A057}</Project>
+      <Name>irq_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\mod_audio_tests.vcxproj">
+      <Project>{54B658D2-A576-3756-91A2-9BDB50F98EAC}</Project>
+      <Name>mod_audio_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\mod_state_tests.vcxproj">
+      <Project>{82A68824-E719-3C03-A719-A2123BC471CA}</Project>
+      <Name>mod_state_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\ppu_smoke_tests.vcxproj">
+      <Project>{922267EB-2255-3596-BACC-B17087765CBF}</Project>
+      <Name>ppu_smoke_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\presentation_layout_tests.vcxproj">
+      <Project>{345AAA95-292D-3BEB-99B1-F30B4AA0B833}</Project>
+      <Name>presentation_layout_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\recompile_config_tests.vcxproj">
+      <Project>{BF241DA2-EE4A-3862-AB00-00815975F7A3}</Project>
+      <Name>recompile_config_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\rtc_tests.vcxproj">
+      <Project>{7295D14A-1686-3E4D-AECF-F551EC1F1569}</Project>
+      <Name>rtc_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\save_config_tests.vcxproj">
+      <Project>{B128BF34-0DD2-362C-82F6-09E863E56798}</Project>
+      <Name>save_config_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\selfheal_cluster_test.vcxproj">
+      <Project>{438F275A-8A45-35FC-B52C-B6B51AB07084}</Project>
+      <Name>selfheal_cluster_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\symbol_lookup_smoke.vcxproj">
+      <Project>{89B86E9B-43BA-32F2-B112-594368116206}</Project>
+      <Name>symbol_lookup_smoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\thumb_tests.vcxproj">
+      <Project>{A901211D-0986-3B3A-A115-18BF32915643}</Project>
+      <Name>thumb_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build-gemini\gbarecomp_build\timer_tests.vcxproj">
+      <Project>{69FD4926-A8F3-3093-A25E-9DF5481F226F}</Project>
+      <Name>timer_tests</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

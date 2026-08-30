@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8323466a-8bca-372b-a08d-962bf1dedd7d" DefaultStartup="true">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="armv4t_tests.vcxproj"/>
+		<BuildDependency Project="audio_drc_tests.vcxproj"/>
+		<BuildDependency Project="bios_smoke.vcxproj"/>
+		<BuildDependency Project="bus_tests.vcxproj"/>
+		<BuildDependency Project="codegen_shards_tests.vcxproj"/>
+		<BuildDependency Project="codegen_tests.vcxproj"/>
+		<BuildDependency Project="config_overlay_smoke.vcxproj"/>
+		<BuildDependency Project="decoder_smoke.vcxproj"/>
+		<BuildDependency Project="dma_tests.vcxproj"/>
+		<BuildDependency Project="function_finder_tests.vcxproj"/>
+		<BuildDependency Project="gba_recompile.vcxproj"/>
+		<BuildDependency Project="gba_scan.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_debug.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+		<BuildDependency Project="gbarecomp_heal_gate.vcxproj"/>
+		<BuildDependency Project="gbarecomp_recompile_core.vcxproj"/>
+		<BuildDependency Project="gbarecomp_runtime.vcxproj"/>
+		<BuildDependency Project="gen_codegen_tests.vcxproj"/>
+		<BuildDependency Project="gpio_tests.vcxproj"/>
+		<BuildDependency Project="heal_gate_tests.vcxproj"/>
+		<BuildDependency Project="interpreter_smoke.vcxproj"/>
+		<BuildDependency Project="irq_tests.vcxproj"/>
+		<BuildDependency Project="mod_audio_tests.vcxproj"/>
+		<BuildDependency Project="mod_state_tests.vcxproj"/>
+		<BuildDependency Project="ppu_smoke_tests.vcxproj"/>
+		<BuildDependency Project="presentation_layout_tests.vcxproj"/>
+		<BuildDependency Project="recompile_config_tests.vcxproj"/>
+		<BuildDependency Project="rtc_tests.vcxproj"/>
+		<BuildDependency Project="save_config_tests.vcxproj"/>
+		<BuildDependency Project="selfheal_cluster_test.vcxproj"/>
+		<BuildDependency Project="symbol_lookup_smoke.vcxproj"/>
+		<BuildDependency Project="thumb_tests.vcxproj"/>
+		<BuildDependency Project="timer_tests.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="../ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2472888e-a4bb-3f60-89b0-a64e6478dddf"/>
+	<Project Path="armv4t_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0dac0e40-05a8-3b6b-b254-16368187cee4">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+	</Project>
+	<Project Path="audio_drc_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="db604bdf-5d61-38e7-96db-aee69be2eba2">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="bios_smoke.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0975dcae-2ab7-30c1-836b-254ecf425488">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_debug.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+		<BuildDependency Project="gbarecomp_heal_gate.vcxproj"/>
+		<BuildDependency Project="gbarecomp_recompile_core.vcxproj"/>
+		<BuildDependency Project="gbarecomp_runtime.vcxproj"/>
+	</Project>
+	<Project Path="bus_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="789e3c64-33ea-3d3b-a78e-e6dad5b34a18">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_debug.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+		<BuildDependency Project="gbarecomp_heal_gate.vcxproj"/>
+		<BuildDependency Project="gbarecomp_recompile_core.vcxproj"/>
+		<BuildDependency Project="gbarecomp_runtime.vcxproj"/>
+	</Project>
+	<Project Path="codegen_shards_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1d576c8a-54a2-3dc3-ae5d-e89397f313d2">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_recompile_core.vcxproj"/>
+	</Project>
+	<Project Path="codegen_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="74e306d8-5d76-388c-a115-85cb5d6ac183">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gen_codegen_tests.vcxproj"/>
+	</Project>
+	<Project Path="config_overlay_smoke.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f90cb1f0-a1a6-358c-8ecf-8435711023d2">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+		<BuildDependency Project="gbarecomp_recompile_core.vcxproj"/>
+	</Project>
+	<Project Path="decoder_smoke.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="77c4ea7f-0b78-34a4-8bb8-570cf55cea37">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+	</Project>
+	<Project Path="dma_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a755acfc-4aec-3c69-b6e4-de76c38de564">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_debug.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+		<BuildDependency Project="gbarecomp_heal_gate.vcxproj"/>
+		<BuildDependency Project="gbarecomp_recompile_core.vcxproj"/>
+		<BuildDependency Project="gbarecomp_runtime.vcxproj"/>
+	</Project>
+	<Project Path="function_finder_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3a82f87c-ed58-34af-82ad-77697423eb91">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_recompile_core.vcxproj"/>
+	</Project>
+	<Project Path="gba_recompile.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c32b4078-cd38-3a5d-9544-fe22dd9badab">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+		<BuildDependency Project="gbarecomp_recompile_core.vcxproj"/>
+	</Project>
+	<Project Path="gba_scan.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2c9d4592-8899-3122-b3b9-523be6b655ad">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+	</Project>
+	<Project Path="gbarecomp_armv4t.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="768a680b-a10b-30b4-909c-b5b0ba57b54c">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="gbarecomp_debug.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f5eaf759-ec9c-3f47-9b21-df3210ba41ed">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+	</Project>
+	<Project Path="gbarecomp_gba.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d9a37477-d764-30ee-bb94-80d99aef9736">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+	</Project>
+	<Project Path="gbarecomp_heal_gate.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="353db2c0-2954-35a5-9be0-21af013a52b1">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+	</Project>
+	<Project Path="gbarecomp_recompile_core.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6dbfb43e-5e46-375d-bdec-6a6bba107d85">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+	</Project>
+	<Project Path="gbarecomp_runtime.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="68ccd278-a7a2-3140-b914-5c71b1fca96f">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_debug.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+		<BuildDependency Project="gbarecomp_heal_gate.vcxproj"/>
+		<BuildDependency Project="gbarecomp_recompile_core.vcxproj"/>
+	</Project>
+	<Project Path="gen_codegen_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2264496a-cd0d-3897-9d07-97e588572623">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+	</Project>
+	<Project Path="gpio_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="cc9e8774-afe4-3d9f-8d88-5e7ed2816784">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+	</Project>
+	<Project Path="heal_gate_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5898a6cb-0e6e-31d9-b676-0cf1fbb2bc10">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+		<BuildDependency Project="gbarecomp_heal_gate.vcxproj"/>
+	</Project>
+	<Project Path="interpreter_smoke.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0238450e-0b3c-3591-8dbe-09589f09b53b">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+	</Project>
+	<Project Path="irq_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e27857f8-a995-3c6a-a42d-820e8775a057">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+	</Project>
+	<Project Path="mod_audio_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="54b658d2-a576-3756-91a2-9bdb50f98eac">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="mod_state_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="82a68824-e719-3c03-a719-a2123bc471ca">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_debug.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+	</Project>
+	<Project Path="ppu_smoke_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="922267eb-2255-3596-bacc-b17087765cbf">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+	</Project>
+	<Project Path="presentation_layout_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="345aaa95-292d-3beb-99b1-f30b4aa0b833">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="recompile_config_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="bf241da2-ee4a-3862-ab00-00815975f7a3">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+	</Project>
+	<Project Path="rtc_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7295d14a-1686-3e4d-aecf-f551ec1f1569">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+	</Project>
+	<Project Path="save_config_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b128bf34-0dd2-362c-82f6-09e863e56798">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+	</Project>
+	<Project Path="selfheal_cluster_test.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="438f275a-8a45-35fc-b52c-b6b51ab07084">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="symbol_lookup_smoke.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="89b86e9b-43ba-32f2-b112-594368116206">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+	</Project>
+	<Project Path="thumb_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a901211d-0986-3b3a-a115-18bf32915643">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+	</Project>
+	<Project Path="timer_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="69fd4926-a8f3-3093-a25e-9df5481f226f">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gbarecomp_armv4t.vcxproj"/>
+		<BuildDependency Project="gbarecomp_debug.vcxproj"/>
+		<BuildDependency Project="gbarecomp_gba.vcxproj"/>
+		<BuildDependency Project="gbarecomp_heal_gate.vcxproj"/>
+		<BuildDependency Project="gbarecomp_recompile_core.vcxproj"/>
+		<BuildDependency Project="gbarecomp_runtime.vcxproj"/>
+	</Project>
+</Solution>

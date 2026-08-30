@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/cmake_install.cmake",
+		"C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-ninja/gbarecomp_build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\generated\recompiled_000.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\generated\recompiled_001.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\generated\dispatch_table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\generated\symbol_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{308F8CC1-8248-332E-9540-584875E6245A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

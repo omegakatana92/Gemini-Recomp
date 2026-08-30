@@ -1,0 +1,1918 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.9.1+a81b43525 for .NET Framework
+      Build started 8/25/2026 9:48:41 AM.
+      
+      Project "C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.68
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-runtime/CMakeFiles/4.3.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Mozilla Firefox/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/omega/.dotnet/tools/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Mozilla Firefox/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/omega/.dotnet/tools/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Program Files/Mozilla Firefox/lld-link.com"
+      - "C:/Program Files/Mozilla Firefox/lld-link.exe"
+      - "C:/Program Files/Mozilla Firefox/lld-link"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Mullvad VPN/resources/lld-link.com"
+      - "C:/Program Files/Mullvad VPN/resources/lld-link.exe"
+      - "C:/Program Files/Mullvad VPN/resources/lld-link"
+      - "C:/Program Files (x86)/dotnet/lld-link.com"
+      - "C:/Program Files (x86)/dotnet/lld-link.exe"
+      - "C:/Program Files (x86)/dotnet/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/LLVM/bin/lld-link.com"
+    found: "C:/Program Files/LLVM/bin/lld-link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Mozilla Firefox/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/omega/.dotnet/tools/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Mozilla Firefox/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/omega/.dotnet/tools/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt"
+      - "C:/Program Files/Mozilla Firefox/mt.com"
+      - "C:/Program Files/Mozilla Firefox/mt.exe"
+      - "C:/Program Files/Mozilla Firefox/mt"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/mt.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/Mullvad VPN/resources/mt.com"
+      - "C:/Program Files/Mullvad VPN/resources/mt.exe"
+      - "C:/Program Files/Mullvad VPN/resources/mt"
+      - "C:/Program Files (x86)/dotnet/mt.com"
+      - "C:/Program Files (x86)/dotnet/mt.exe"
+      - "C:/Program Files (x86)/dotnet/mt"
+      - "C:/Program Files/PuTTY/mt.com"
+      - "C:/Program Files/PuTTY/mt.exe"
+      - "C:/Program Files/PuTTY/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/LLVM/bin/mt.com"
+      - "C:/Program Files/LLVM/bin/mt.exe"
+      - "C:/Program Files/LLVM/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/omega/.dotnet/tools/mt.com"
+      - "C:/Users/omega/.dotnet/tools/mt.exe"
+      - "C:/Users/omega/.dotnet/tools/mt"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/mt.com"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/mt.exe"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Mozilla Firefox/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/omega/.dotnet/tools/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.9.1+a81b43525 for .NET Framework
+      Build started 8/25/2026 9:48:42 AM.
+      
+      Project "C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.76
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-runtime/CMakeFiles/4.3.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Mozilla Firefox/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/omega/.dotnet/tools/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/gbarecomp/bin/"
+      - "C:/Program Files (x86)/gbarecomp/sbin/"
+      - "C:/Program Files (x86)/gbarecomp/"
+    searched_directories:
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
+      - "C:/Program Files/Mozilla Firefox/rc.com"
+      - "C:/Program Files/Mozilla Firefox/rc.exe"
+      - "C:/Program Files/Mozilla Firefox/rc"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/rc.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Mullvad VPN/resources/rc.com"
+      - "C:/Program Files/Mullvad VPN/resources/rc.exe"
+      - "C:/Program Files/Mullvad VPN/resources/rc"
+      - "C:/Program Files (x86)/dotnet/rc.com"
+      - "C:/Program Files (x86)/dotnet/rc.exe"
+      - "C:/Program Files (x86)/dotnet/rc"
+      - "C:/Program Files/PuTTY/rc.com"
+      - "C:/Program Files/PuTTY/rc.exe"
+      - "C:/Program Files/PuTTY/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/LLVM/bin/rc.com"
+      - "C:/Program Files/LLVM/bin/rc.exe"
+      - "C:/Program Files/LLVM/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/omega/.dotnet/tools/rc.com"
+      - "C:/Users/omega/.dotnet/tools/rc.exe"
+      - "C:/Users/omega/.dotnet/tools/rc"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/rc.com"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/rc.exe"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/gbarecomp/bin/rc.com"
+      - "C:/Program Files (x86)/gbarecomp/bin/rc.exe"
+      - "C:/Program Files (x86)/gbarecomp/bin/rc"
+      - "C:/Program Files (x86)/gbarecomp/sbin/rc.com"
+      - "C:/Program Files (x86)/gbarecomp/sbin/rc.exe"
+      - "C:/Program Files (x86)/gbarecomp/sbin/rc"
+      - "C:/Program Files (x86)/gbarecomp/rc.com"
+      - "C:/Program Files (x86)/gbarecomp/rc.exe"
+      - "C:/Program Files (x86)/gbarecomp/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/gbarecomp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/gbarecomp"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-runtime/CMakeFiles/CMakeScratch/TryCompile-jh4wvx"
+      binary: "C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-runtime/CMakeFiles/CMakeScratch/TryCompile-jh4wvx"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-runtime/CMakeFiles/CMakeScratch/TryCompile-jh4wvx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_47c15.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.9.1+a81b43525 for .NET Framework
+        Build started 8/25/2026 9:48:44 AM.
+        
+        Project "C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\CMakeScratch\\TryCompile-jh4wvx\\cmTC_47c15.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\CMakeScratch\\TryCompile-jh4wvx\\Debug\\".
+          Creating directory "cmTC_47c15.dir\\Debug\\cmTC_47c15.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_47c15.dir\\Debug\\cmTC_47c15.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_47c15.dir\\Debug\\cmTC_47c15.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_47c15.dir\\Debug\\\\" /Fd"cmTC_47c15.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36256 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_47c15.dir\\Debug\\\\" /Fd"cmTC_47c15.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\CMakeScratch\\TryCompile-jh4wvx\\Debug\\cmTC_47c15.exe" /INCREMENTAL /ILK:"cmTC_47c15.dir\\Debug\\cmTC_47c15.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-runtime/CMakeFiles/CMakeScratch/TryCompile-jh4wvx/Debug/cmTC_47c15.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-runtime/CMakeFiles/CMakeScratch/TryCompile-jh4wvx/Debug/cmTC_47c15.lib" /MACHINE:X64  /machine:x64 cmTC_47c15.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_47c15.vcxproj -> C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\CMakeScratch\\TryCompile-jh4wvx\\Debug\\cmTC_47c15.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_47c15.dir\\Debug\\cmTC_47c15.tlog\\unsuccessfulbuild".
+          Touching "cmTC_47c15.dir\\Debug\\cmTC_47c15.tlog\\cmTC_47c15.lastbuildstate".
+        Done Building Project "C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\CMakeScratch\\TryCompile-jh4wvx\\cmTC_47c15.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.66
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36256.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-runtime/CMakeFiles/CMakeScratch/TryCompile-5tgiy8"
+      binary: "C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-runtime/CMakeFiles/CMakeScratch/TryCompile-5tgiy8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-runtime/CMakeFiles/CMakeScratch/TryCompile-5tgiy8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_85af1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.9.1+a81b43525 for .NET Framework
+        Build started 8/25/2026 9:48:45 AM.
+        
+        Project "C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\CMakeScratch\\TryCompile-5tgiy8\\cmTC_85af1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\CMakeScratch\\TryCompile-5tgiy8\\Debug\\".
+          Creating directory "cmTC_85af1.dir\\Debug\\cmTC_85af1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_85af1.dir\\Debug\\cmTC_85af1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_85af1.dir\\Debug\\cmTC_85af1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_85af1.dir\\Debug\\\\" /Fd"cmTC_85af1.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36256 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_85af1.dir\\Debug\\\\" /Fd"cmTC_85af1.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\CMakeScratch\\TryCompile-5tgiy8\\Debug\\cmTC_85af1.exe" /INCREMENTAL /ILK:"cmTC_85af1.dir\\Debug\\cmTC_85af1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-runtime/CMakeFiles/CMakeScratch/TryCompile-5tgiy8/Debug/cmTC_85af1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build-runtime/CMakeFiles/CMakeScratch/TryCompile-5tgiy8/Debug/cmTC_85af1.lib" /MACHINE:X64  /machine:x64 cmTC_85af1.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_85af1.vcxproj -> C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\CMakeScratch\\TryCompile-5tgiy8\\Debug\\cmTC_85af1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_85af1.dir\\Debug\\cmTC_85af1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_85af1.dir\\Debug\\cmTC_85af1.tlog\\cmTC_85af1.lastbuildstate".
+        Done Building Project "C:\\Users\\omega\\Documents\\tools\\gbarecomp-cli-windows-x86_64\\Projects\\MyGameRecomp\\build-runtime\\CMakeFiles\\CMakeScratch\\TryCompile-5tgiy8\\cmTC_85af1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.65
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36256.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:29 (find_program)"
+    mode: "program"
+    variable: "GBARECOMP_COMPILER_CACHE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sccache"
+      - "ccache"
+    candidate_directories:
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Mozilla Firefox/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/omega/.dotnet/tools/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/gbarecomp/bin/"
+      - "C:/Program Files (x86)/gbarecomp/sbin/"
+      - "C:/Program Files (x86)/gbarecomp/"
+    searched_directories:
+      - "C:/msys64/mingw64/bin/sccache.com"
+      - "C:/msys64/mingw64/bin/sccache.exe"
+      - "C:/msys64/mingw64/bin/sccache"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/sccache.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/sccache.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/sccache"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/sccache.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/sccache.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/sccache"
+      - "C:/Program Files/Mozilla Firefox/sccache.com"
+      - "C:/Program Files/Mozilla Firefox/sccache.exe"
+      - "C:/Program Files/Mozilla Firefox/sccache"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/sccache.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/sccache.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/sccache"
+      - "C:/Windows/System32/sccache.com"
+      - "C:/Windows/System32/sccache.exe"
+      - "C:/Windows/System32/sccache"
+      - "C:/Windows/sccache.com"
+      - "C:/Windows/sccache.exe"
+      - "C:/Windows/sccache"
+      - "C:/Windows/System32/wbem/sccache.com"
+      - "C:/Windows/System32/wbem/sccache.exe"
+      - "C:/Windows/System32/wbem/sccache"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/sccache.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/sccache.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/sccache"
+      - "C:/Windows/System32/OpenSSH/sccache.com"
+      - "C:/Windows/System32/OpenSSH/sccache.exe"
+      - "C:/Windows/System32/OpenSSH/sccache"
+      - "C:/Program Files/dotnet/sccache.com"
+      - "C:/Program Files/dotnet/sccache.exe"
+      - "C:/Program Files/dotnet/sccache"
+      - "C:/Program Files/Mullvad VPN/resources/sccache.com"
+      - "C:/Program Files/Mullvad VPN/resources/sccache.exe"
+      - "C:/Program Files/Mullvad VPN/resources/sccache"
+      - "C:/Program Files (x86)/dotnet/sccache.com"
+      - "C:/Program Files (x86)/dotnet/sccache.exe"
+      - "C:/Program Files (x86)/dotnet/sccache"
+      - "C:/Program Files/PuTTY/sccache.com"
+      - "C:/Program Files/PuTTY/sccache.exe"
+      - "C:/Program Files/PuTTY/sccache"
+      - "C:/Program Files/CMake/bin/sccache.com"
+      - "C:/Program Files/CMake/bin/sccache.exe"
+      - "C:/Program Files/CMake/bin/sccache"
+      - "C:/Program Files/LLVM/bin/sccache.com"
+      - "C:/Program Files/LLVM/bin/sccache.exe"
+      - "C:/Program Files/LLVM/bin/sccache"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/sccache.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/sccache.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/sccache"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/sccache.com"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/sccache.exe"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/sccache"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/sccache.com"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/sccache.exe"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/sccache"
+      - "C:/Users/omega/.dotnet/tools/sccache.com"
+      - "C:/Users/omega/.dotnet/tools/sccache.exe"
+      - "C:/Users/omega/.dotnet/tools/sccache"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/sccache.com"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/sccache.exe"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/sccache"
+      - "C:/Program Files/bin/sccache.com"
+      - "C:/Program Files/bin/sccache.exe"
+      - "C:/Program Files/bin/sccache"
+      - "C:/Program Files/sbin/sccache.com"
+      - "C:/Program Files/sbin/sccache.exe"
+      - "C:/Program Files/sbin/sccache"
+      - "C:/Program Files/sccache.com"
+      - "C:/Program Files/sccache.exe"
+      - "C:/Program Files/sccache"
+      - "C:/Program Files (x86)/bin/sccache.com"
+      - "C:/Program Files (x86)/bin/sccache.exe"
+      - "C:/Program Files (x86)/bin/sccache"
+      - "C:/Program Files (x86)/sbin/sccache.com"
+      - "C:/Program Files (x86)/sbin/sccache.exe"
+      - "C:/Program Files (x86)/sbin/sccache"
+      - "C:/Program Files (x86)/sccache.com"
+      - "C:/Program Files (x86)/sccache.exe"
+      - "C:/Program Files (x86)/sccache"
+      - "C:/Program Files/CMake/bin/sccache.com"
+      - "C:/Program Files/CMake/bin/sccache.exe"
+      - "C:/Program Files/CMake/bin/sccache"
+      - "C:/Program Files/CMake/sbin/sccache.com"
+      - "C:/Program Files/CMake/sbin/sccache.exe"
+      - "C:/Program Files/CMake/sbin/sccache"
+      - "C:/Program Files/CMake/sccache.com"
+      - "C:/Program Files/CMake/sccache.exe"
+      - "C:/Program Files/CMake/sccache"
+      - "C:/Program Files (x86)/gbarecomp/bin/sccache.com"
+      - "C:/Program Files (x86)/gbarecomp/bin/sccache.exe"
+      - "C:/Program Files (x86)/gbarecomp/bin/sccache"
+      - "C:/Program Files (x86)/gbarecomp/sbin/sccache.com"
+      - "C:/Program Files (x86)/gbarecomp/sbin/sccache.exe"
+      - "C:/Program Files (x86)/gbarecomp/sbin/sccache"
+      - "C:/Program Files (x86)/gbarecomp/sccache.com"
+      - "C:/Program Files (x86)/gbarecomp/sccache.exe"
+      - "C:/Program Files (x86)/gbarecomp/sccache"
+      - "C:/msys64/mingw64/bin/ccache.com"
+      - "C:/msys64/mingw64/bin/ccache.exe"
+      - "C:/msys64/mingw64/bin/ccache"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache"
+      - "C:/Program Files/Mozilla Firefox/ccache.com"
+      - "C:/Program Files/Mozilla Firefox/ccache.exe"
+      - "C:/Program Files/Mozilla Firefox/ccache"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/ccache.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/ccache.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/ccache"
+      - "C:/Windows/System32/ccache.com"
+      - "C:/Windows/System32/ccache.exe"
+      - "C:/Windows/System32/ccache"
+      - "C:/Windows/ccache.com"
+      - "C:/Windows/ccache.exe"
+      - "C:/Windows/ccache"
+      - "C:/Windows/System32/wbem/ccache.com"
+      - "C:/Windows/System32/wbem/ccache.exe"
+      - "C:/Windows/System32/wbem/ccache"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ccache.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ccache.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ccache"
+      - "C:/Windows/System32/OpenSSH/ccache.com"
+      - "C:/Windows/System32/OpenSSH/ccache.exe"
+      - "C:/Windows/System32/OpenSSH/ccache"
+      - "C:/Program Files/dotnet/ccache.com"
+      - "C:/Program Files/dotnet/ccache.exe"
+      - "C:/Program Files/dotnet/ccache"
+      - "C:/Program Files/Mullvad VPN/resources/ccache.com"
+      - "C:/Program Files/Mullvad VPN/resources/ccache.exe"
+      - "C:/Program Files/Mullvad VPN/resources/ccache"
+      - "C:/Program Files (x86)/dotnet/ccache.com"
+      - "C:/Program Files (x86)/dotnet/ccache.exe"
+      - "C:/Program Files (x86)/dotnet/ccache"
+      - "C:/Program Files/PuTTY/ccache.com"
+      - "C:/Program Files/PuTTY/ccache.exe"
+      - "C:/Program Files/PuTTY/ccache"
+      - "C:/Program Files/CMake/bin/ccache.com"
+      - "C:/Program Files/CMake/bin/ccache.exe"
+      - "C:/Program Files/CMake/bin/ccache"
+      - "C:/Program Files/LLVM/bin/ccache.com"
+      - "C:/Program Files/LLVM/bin/ccache.exe"
+      - "C:/Program Files/LLVM/bin/ccache"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ccache.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ccache.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ccache"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/ccache.com"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/ccache.exe"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/ccache"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/ccache.com"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/ccache.exe"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/ccache"
+      - "C:/Users/omega/.dotnet/tools/ccache.com"
+      - "C:/Users/omega/.dotnet/tools/ccache.exe"
+      - "C:/Users/omega/.dotnet/tools/ccache"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/ccache.com"
+    found: "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/ccache.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/gbarecomp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/gbarecomp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:104 (find_path)"
+    mode: "path"
+    variable: "SDL2_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL.h"
+    candidate_directories:
+      - "/c/msys64/mingw64/include/SDL2/"
+      - "/c/msys64/mingw64/include/SDL2/include/"
+      - "/c/msys64/mingw64/include/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SDL2/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SDL2/include/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SDL2/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SDL2/include/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Mozilla Firefox/SDL2/"
+      - "C:/Program Files/Mozilla Firefox/SDL2/include/"
+      - "C:/Program Files/Mozilla Firefox/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/SDL2/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/SDL2/include/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/SDL2/"
+      - "C:/Windows/System32/SDL2/include/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/SDL2/"
+      - "C:/Windows/SDL2/include/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/SDL2/"
+      - "C:/Windows/System32/wbem/SDL2/include/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SDL2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SDL2/include/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/SDL2/"
+      - "C:/Windows/System32/OpenSSH/SDL2/include/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/SDL2/"
+      - "C:/Program Files/dotnet/SDL2/include/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Mullvad VPN/resources/SDL2/"
+      - "C:/Program Files/Mullvad VPN/resources/SDL2/include/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files (x86)/dotnet/SDL2/"
+      - "C:/Program Files (x86)/dotnet/SDL2/include/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/PuTTY/SDL2/"
+      - "C:/Program Files/PuTTY/SDL2/include/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/SDL2/"
+      - "C:/Program Files/CMake/bin/SDL2/include/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/SDL2/"
+      - "C:/Program Files/LLVM/bin/SDL2/include/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/SDL2/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/SDL2/include/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/SDL2/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/SDL2/include/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/SDL2/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/SDL2/include/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/omega/.dotnet/tools/SDL2/"
+      - "C:/Users/omega/.dotnet/tools/SDL2/include/"
+      - "C:/Users/omega/.dotnet/tools/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/SDL2/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/SDL2/include/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/"
+      - "C:/Program Files/include/SDL2/"
+      - "C:/Program Files/include/SDL2/include/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/SDL2/"
+      - "C:/Program Files/SDL2/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/SDL2/"
+      - "C:/Program Files (x86)/include/SDL2/include/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/SDL2/"
+      - "C:/Program Files (x86)/SDL2/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/SDL2/"
+      - "C:/Program Files/CMake/include/SDL2/include/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/SDL2/"
+      - "C:/Program Files/CMake/SDL2/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/gbarecomp/include/SDL2/"
+      - "C:/Program Files (x86)/gbarecomp/include/SDL2/include/"
+      - "C:/Program Files (x86)/gbarecomp/include/"
+      - "C:/Program Files (x86)/gbarecomp/SDL2/"
+      - "C:/Program Files (x86)/gbarecomp/SDL2/include/"
+      - "C:/Program Files (x86)/gbarecomp/"
+    searched_directories:
+      - "/c/msys64/mingw64/include/SDL2/SDL.h"
+      - "/c/msys64/mingw64/include/SDL2/include/SDL.h"
+      - "/c/msys64/mingw64/include/SDL.h"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SDL2/SDL.h"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SDL2/include/SDL.h"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SDL.h"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SDL2/SDL.h"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SDL2/include/SDL.h"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SDL.h"
+      - "C:/Program Files/Mozilla Firefox/SDL2/SDL.h"
+      - "C:/Program Files/Mozilla Firefox/SDL2/include/SDL.h"
+      - "C:/Program Files/Mozilla Firefox/SDL.h"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/SDL2/SDL.h"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/SDL2/include/SDL.h"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/SDL.h"
+      - "C:/Windows/System32/SDL2/SDL.h"
+      - "C:/Windows/System32/SDL2/include/SDL.h"
+      - "C:/Windows/System32/SDL.h"
+      - "C:/Windows/SDL2/SDL.h"
+      - "C:/Windows/SDL2/include/SDL.h"
+      - "C:/Windows/SDL.h"
+      - "C:/Windows/System32/wbem/SDL2/SDL.h"
+      - "C:/Windows/System32/wbem/SDL2/include/SDL.h"
+      - "C:/Windows/System32/wbem/SDL.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SDL2/SDL.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SDL2/include/SDL.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SDL.h"
+      - "C:/Windows/System32/OpenSSH/SDL2/SDL.h"
+      - "C:/Windows/System32/OpenSSH/SDL2/include/SDL.h"
+      - "C:/Windows/System32/OpenSSH/SDL.h"
+      - "C:/Program Files/dotnet/SDL2/SDL.h"
+      - "C:/Program Files/dotnet/SDL2/include/SDL.h"
+      - "C:/Program Files/dotnet/SDL.h"
+      - "C:/Program Files/Mullvad VPN/resources/SDL2/SDL.h"
+      - "C:/Program Files/Mullvad VPN/resources/SDL2/include/SDL.h"
+      - "C:/Program Files/Mullvad VPN/resources/SDL.h"
+      - "C:/Program Files (x86)/dotnet/SDL2/SDL.h"
+      - "C:/Program Files (x86)/dotnet/SDL2/include/SDL.h"
+      - "C:/Program Files (x86)/dotnet/SDL.h"
+      - "C:/Program Files/PuTTY/SDL2/SDL.h"
+      - "C:/Program Files/PuTTY/SDL2/include/SDL.h"
+      - "C:/Program Files/PuTTY/SDL.h"
+      - "C:/Program Files/CMake/bin/SDL2/SDL.h"
+      - "C:/Program Files/CMake/bin/SDL2/include/SDL.h"
+      - "C:/Program Files/CMake/bin/SDL.h"
+      - "C:/Program Files/LLVM/bin/SDL2/SDL.h"
+      - "C:/Program Files/LLVM/bin/SDL2/include/SDL.h"
+      - "C:/Program Files/LLVM/bin/SDL.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/SDL2/SDL.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/SDL2/include/SDL.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/SDL.h"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/SDL2/SDL.h"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/SDL2/include/SDL.h"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/SDL.h"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/SDL2/SDL.h"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/SDL2/include/SDL.h"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/SDL.h"
+      - "C:/Users/omega/.dotnet/tools/SDL2/SDL.h"
+      - "C:/Users/omega/.dotnet/tools/SDL2/include/SDL.h"
+      - "C:/Users/omega/.dotnet/tools/SDL.h"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/SDL2/SDL.h"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/SDL2/include/SDL.h"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/SDL.h"
+      - "C:/Program Files/include/SDL2/SDL.h"
+      - "C:/Program Files/include/SDL2/include/SDL.h"
+      - "C:/Program Files/include/SDL.h"
+      - "C:/Program Files/SDL2/SDL.h"
+      - "C:/Program Files/SDL2/include/SDL.h"
+      - "C:/Program Files/SDL.h"
+      - "C:/Program Files (x86)/include/SDL2/SDL.h"
+      - "C:/Program Files (x86)/include/SDL2/include/SDL.h"
+      - "C:/Program Files (x86)/include/SDL.h"
+      - "C:/Program Files (x86)/SDL2/SDL.h"
+      - "C:/Program Files (x86)/SDL2/include/SDL.h"
+      - "C:/Program Files (x86)/SDL.h"
+      - "C:/Program Files/CMake/include/SDL2/SDL.h"
+      - "C:/Program Files/CMake/include/SDL2/include/SDL.h"
+      - "C:/Program Files/CMake/include/SDL.h"
+      - "C:/Program Files/CMake/SDL2/SDL.h"
+      - "C:/Program Files/CMake/SDL2/include/SDL.h"
+      - "C:/Program Files/CMake/SDL.h"
+      - "C:/Program Files (x86)/gbarecomp/include/SDL2/SDL.h"
+      - "C:/Program Files (x86)/gbarecomp/include/SDL2/include/SDL.h"
+      - "C:/Program Files (x86)/gbarecomp/include/SDL.h"
+      - "C:/Program Files (x86)/gbarecomp/SDL2/SDL.h"
+      - "C:/Program Files (x86)/gbarecomp/SDL2/include/SDL.h"
+      - "C:/Program Files (x86)/gbarecomp/SDL.h"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/gbarecomp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/gbarecomp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:145 (find_library)"
+    mode: "library"
+    variable: "SDL2_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL2"
+    candidate_directories:
+      - "/c/msys64/mingw64/lib/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Mozilla Firefox/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/omega/.dotnet/tools/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/gbarecomp/lib/"
+      - "C:/Program Files (x86)/gbarecomp/"
+      - "C:/Program Files (x86)/gbarecomp/bin/"
+      - "/bin/"
+    searched_directories:
+      - "/c/msys64/mingw64/lib/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Mozilla Firefox/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/omega/.dotnet/tools/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/gbarecomp/lib/"
+      - "C:/Program Files (x86)/gbarecomp/"
+      - "C:/Program Files (x86)/gbarecomp/bin/"
+      - "/bin/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/gbarecomp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/gbarecomp"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/gbarecomp/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:507 (find_path)"
+    mode: "path"
+    variable: "GBARECOMP_TOMLPP_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "toml.hpp"
+    candidate_directories:
+      - "C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/gbarecomp/third_party/tomlpp/"
+    searched_directories:
+      - "C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/gbarecomp/third_party/tomlpp/toml.hpp"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/gbarecomp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/gbarecomp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1887 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2399 (__FetchContent_Populate)"
+      - "CMakeLists.txt:518 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Mozilla Firefox/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/omega/.dotnet/tools/"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/gbarecomp/bin/"
+      - "C:/Program Files (x86)/gbarecomp/sbin/"
+      - "C:/Program Files (x86)/gbarecomp/"
+      - "C:/Users/omega/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/git.cmd.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/git.cmd.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/git.cmd"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/git.cmd.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/git.cmd.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/git.cmd"
+      - "C:/Program Files/Mozilla Firefox/git.cmd.com"
+      - "C:/Program Files/Mozilla Firefox/git.cmd.exe"
+      - "C:/Program Files/Mozilla Firefox/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/Mullvad VPN/resources/git.cmd.com"
+      - "C:/Program Files/Mullvad VPN/resources/git.cmd.exe"
+      - "C:/Program Files/Mullvad VPN/resources/git.cmd"
+      - "C:/Program Files (x86)/dotnet/git.cmd.com"
+      - "C:/Program Files (x86)/dotnet/git.cmd.exe"
+      - "C:/Program Files (x86)/dotnet/git.cmd"
+      - "C:/Program Files/PuTTY/git.cmd.com"
+      - "C:/Program Files/PuTTY/git.cmd.exe"
+      - "C:/Program Files/PuTTY/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/LLVM/bin/git.cmd.com"
+      - "C:/Program Files/LLVM/bin/git.cmd.exe"
+      - "C:/Program Files/LLVM/bin/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/omega/.dotnet/tools/git.cmd.com"
+      - "C:/Users/omega/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/omega/.dotnet/tools/git.cmd"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/git.cmd.com"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/git.cmd.exe"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/gbarecomp/bin/git.cmd.com"
+      - "C:/Program Files (x86)/gbarecomp/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/gbarecomp/bin/git.cmd"
+      - "C:/Program Files (x86)/gbarecomp/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/gbarecomp/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/gbarecomp/sbin/git.cmd"
+      - "C:/Program Files (x86)/gbarecomp/git.cmd.com"
+      - "C:/Program Files (x86)/gbarecomp/git.cmd.exe"
+      - "C:/Program Files (x86)/gbarecomp/git.cmd"
+      - "C:/Users/omega/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/omega/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/omega/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/git.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/git.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/git"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/git.com"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/git.exe"
+      - "C:/Users/omega/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/git"
+      - "C:/Program Files/Mozilla Firefox/git.com"
+      - "C:/Program Files/Mozilla Firefox/git.exe"
+      - "C:/Program Files/Mozilla Firefox/git"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/git.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/git.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/dotnet/git.com"
+      - "C:/Program Files/dotnet/git.exe"
+      - "C:/Program Files/dotnet/git"
+      - "C:/Program Files/Mullvad VPN/resources/git.com"
+      - "C:/Program Files/Mullvad VPN/resources/git.exe"
+      - "C:/Program Files/Mullvad VPN/resources/git"
+      - "C:/Program Files (x86)/dotnet/git.com"
+      - "C:/Program Files (x86)/dotnet/git.exe"
+      - "C:/Program Files (x86)/dotnet/git"
+      - "C:/Program Files/PuTTY/git.com"
+      - "C:/Program Files/PuTTY/git.exe"
+      - "C:/Program Files/PuTTY/git"
+      - "C:/Program Files/CMake/bin/git.com"
+      - "C:/Program Files/CMake/bin/git.exe"
+      - "C:/Program Files/CMake/bin/git"
+      - "C:/Program Files/LLVM/bin/git.com"
+      - "C:/Program Files/LLVM/bin/git.exe"
+      - "C:/Program Files/LLVM/bin/git"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/git.com"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/git.exe"
+      - "C:/Users/omega/AppData/Local/Programs/Python/Launcher/git"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/git.com"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/git.exe"
+      - "C:/Users/omega/AppData/Local/Microsoft/WindowsApps/git"
+      - "C:/Users/omega/.dotnet/tools/git.com"
+      - "C:/Users/omega/.dotnet/tools/git.exe"
+      - "C:/Users/omega/.dotnet/tools/git"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/git.com"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/git.exe"
+      - "C:/Users/omega/.local/share/retcomm/toolchains/cmake-clang-v1/latest/bin/git"
+      - "C:/Program Files/bin/git.com"
+      - "C:/Program Files/bin/git.exe"
+      - "C:/Program Files/bin/git"
+      - "C:/Program Files/sbin/git.com"
+      - "C:/Program Files/sbin/git.exe"
+      - "C:/Program Files/sbin/git"
+      - "C:/Program Files/git.com"
+      - "C:/Program Files/git.exe"
+      - "C:/Program Files/git"
+      - "C:/Program Files (x86)/bin/git.com"
+      - "C:/Program Files (x86)/bin/git.exe"
+      - "C:/Program Files (x86)/bin/git"
+      - "C:/Program Files (x86)/sbin/git.com"
+      - "C:/Program Files (x86)/sbin/git.exe"
+      - "C:/Program Files (x86)/sbin/git"
+      - "C:/Program Files (x86)/git.com"
+      - "C:/Program Files (x86)/git.exe"
+      - "C:/Program Files (x86)/git"
+      - "C:/Program Files/CMake/bin/git.com"
+      - "C:/Program Files/CMake/bin/git.exe"
+      - "C:/Program Files/CMake/bin/git"
+      - "C:/Program Files/CMake/sbin/git.com"
+      - "C:/Program Files/CMake/sbin/git.exe"
+      - "C:/Program Files/CMake/sbin/git"
+      - "C:/Program Files/CMake/git.com"
+      - "C:/Program Files/CMake/git.exe"
+      - "C:/Program Files/CMake/git"
+      - "C:/Program Files (x86)/gbarecomp/bin/git.com"
+      - "C:/Program Files (x86)/gbarecomp/bin/git.exe"
+      - "C:/Program Files (x86)/gbarecomp/bin/git"
+      - "C:/Program Files (x86)/gbarecomp/sbin/git.com"
+      - "C:/Program Files (x86)/gbarecomp/sbin/git.exe"
+      - "C:/Program Files (x86)/gbarecomp/sbin/git"
+      - "C:/Program Files (x86)/gbarecomp/git.com"
+      - "C:/Program Files (x86)/gbarecomp/git.exe"
+      - "C:/Program Files (x86)/gbarecomp/git"
+      - "C:/Users/omega/AppData/Local/Atlassian/SourceTree/git_local/bin/git.com"
+      - "C:/Users/omega/AppData/Local/Atlassian/SourceTree/git_local/bin/git.exe"
+      - "C:/Users/omega/AppData/Local/Atlassian/SourceTree/git_local/bin/git"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\omega\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Mozilla Firefox"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\omega\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\omega\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\omega\\.dotnet\\tools"
+        - "C:\\Users\\omega\\.local\\share\\retcomm\\toolchains\\cmake-clang-v1\\latest\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/gbarecomp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/gbarecomp"
+...

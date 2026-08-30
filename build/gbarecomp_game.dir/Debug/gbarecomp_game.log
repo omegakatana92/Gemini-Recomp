@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/CMakeLists.txt
+  recompiled_000.cpp
+  recompiled_001.cpp
+  dispatch_table.cpp
+  symbol_map.cpp
+  Generating Code...
+  gbarecomp_game.vcxproj -> C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\MyGameRecomp\build\Debug\gbarecomp_game.lib

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\tests\codegen\gen_codegen_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\tests\codegen\test_cases.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\omega\Documents\tools\gbarecomp-cli-windows-x86_64\Projects\gbarecomp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6CECA958-721A-32D9-B55A-84269318F726}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

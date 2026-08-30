@@ -1,0 +1,10 @@
+^C:\USERS\OMEGA\DOCUMENTS\TOOLS\GBARECOMP-CLI-WINDOWS-X86_64\PROJECTS\MYGAMERECOMP\BUILD\CMAKEFILES\9646FC2C8D0B19B037A0A8110C0009EC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp -BC:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/omega/Documents/tools/gbarecomp-cli-windows-x86_64/Projects/MyGameRecomp/build/gbarecomp_generated.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
